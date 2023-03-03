@@ -1,0 +1,12 @@
+# Algoritmo de verificação de número primo: um algoritmo que verifica se um número é primo, ou seja, se é divisível apenas por 1 e por ele mesmo.
+
+leia numero
+
+i = 0
+
+enquant i < numero
+  i = i + 1
+  se numero == i
+    escreva "Primo"
+  senao se numero % i == 0
+    escreva "Não é primo" 

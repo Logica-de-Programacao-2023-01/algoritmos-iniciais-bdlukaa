@@ -1,0 +1,11 @@
+# Algoritmo de cálculo de juros compostos: um algoritmo que calcula o montante de dinheiro após um período de tempo com juros compostos.
+# fonte: https://www.mobills.com.br/calculadoras/calculadora-juros-compostos/
+
+ 
+leia inicial  # valor inicial
+leia taxa     # taxa de juros, em %
+leia tempo    # tempo investido em meses
+
+var final = inicial * (1 + i) ^ tempo
+
+escreva "O valor final é $final"

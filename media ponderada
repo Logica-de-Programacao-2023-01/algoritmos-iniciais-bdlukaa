@@ -1,0 +1,15 @@
+# Algoritmo de cálculo de média ponderada: um algoritmo que calcula a média ponderada de uma lista de números com base nos pesos fornecidos.
+
+leia valores
+leia pesos
+
+quantidade = valores.quantidade
+i = 0
+media = 0
+
+enquanto i != quantidade
+  valor = valores[i]
+  peso = pesos[i]
+  media = media * peso
+
+escreva "A média é " media / quantidade
