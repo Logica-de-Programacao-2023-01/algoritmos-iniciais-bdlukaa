@@ -1,0 +1,16 @@
+# Algoritmo de conversão de temperatura: um algoritmo que converte uma temperatura em Celsius para Fahrenheit ou vice-versa.
+
+leia graus
+leia modelo
+
+se modelo == Celsius então
+    # celsius para Fahrenheit: (0 °C × 9/5) + 32
+    
+    escreva (graus × 9/5) + 32
+senão se modelo == Fahrenheit então
+    # Fahrenheit para celsius: (0 °F − 32) × 5/9
+    
+    escreva (graus - 32) × 5/9
+    
+senão
+    escreva "Modelo não suportado"

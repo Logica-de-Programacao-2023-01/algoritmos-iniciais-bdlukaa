@@ -1,0 +1,14 @@
+# Recepção 
+
+leia bilhete
+
+horaDoFilme = bilhete.horaDoFilme
+sala = bilhete.sala
+hora = agora
+
+se hora < horaDoFilme - 0:30 então
+	dizer "A sala não está aberta."
+senão se hora > horaDoFile + 0:30 então
+	dizer "A entrada não é mais permitida."
+senão
+	dizer "Pode ir para a sala $sala"
