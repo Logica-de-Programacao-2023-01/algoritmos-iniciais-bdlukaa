@@ -1,0 +1,10 @@
+# Algoritmo de cálculo de média: um algoritmo que calcula a média de uma lista de números.
+
+leia numeros
+
+atual = 0
+
+para cada numero em numeros
+    atual = atual + numero
+    
+escreva atual / numeros.quantidade
