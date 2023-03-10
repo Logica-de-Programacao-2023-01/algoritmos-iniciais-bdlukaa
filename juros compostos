@@ -6,6 +6,6 @@ leia inicial  # valor inicial
 leia taxa     # taxa de juros, em %
 leia tempo    # tempo investido em meses
 
-var final = inicial * (1 + i) ^ tempo
+var final = (inicial * taxa) ^ tempo
 
 escreva "O valor final é $final"
