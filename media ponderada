@@ -11,5 +11,6 @@ enquanto i != quantidade
   valor = valores[i]
   peso = pesos[i]
   media = media * peso
+  i++
 
 escreva "A média é " media / quantidade
