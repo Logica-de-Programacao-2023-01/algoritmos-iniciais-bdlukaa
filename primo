@@ -2,7 +2,7 @@
 
 leia numero
 
-i = 0
+i = 1
 
 enquant i < numero
   i = i + 1
